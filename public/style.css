@@ -1,0 +1,26 @@
+body{
+  font-family: system-ui,Segoe UI,Roboto,Arial;
+  background:#0b1220;
+  color:#e6eef8;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  min-height:100vh;
+  margin:0;
+  padding:20px;
+}
+.container{
+  width:100%;
+  max-width:900px;
+  background:rgba(255,255,255,0.03);
+  border-radius:10px;
+  padding:18px;
+}
+.controls{display:flex;gap:8px;align-items:center;margin:12px 0;flex-wrap:wrap}
+.controls input[type="file"]{background:transparent;color:#94a3b8}
+button{padding:8px 12px;border-radius:8px;border:0;background:#06b6d4;color:#02121a;font-weight:600;cursor:pointer}
+#status{color:#94a3b8;margin-bottom:8px}
+.preview{display:flex;gap:16px;align-items:flex-start}
+.preview img{max-width:420px;border-radius:8px;background:#081523;padding:6px}
+h3{margin:6px 0;color:#94a3b8}
+a#downloadLink{background:#34d399;color:#052017;padding:8px 10px;border-radius:8px;text-decoration:none}
